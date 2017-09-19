@@ -1,0 +1,387 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+#banner h1, 
+#banner p,
+#contact h3,
+#contact h2,
+#contact p,
+.contact_detail, 
+.contact_detail a, 
+.contact_detail a:hover, 
+#gallery h3,
+#gallery h2,
+#gallery h1,
+#gallery a,
+#td{
+    color: #fff;
+    
+}
+
+header a,
+body,
+#services p,
+ul li {
+    color: #333;
+}
+
+#header2a span,
+#services h3 {
+    font-weight: 600;
+}
+
+#header2a {
+    color: #3fab45;
+    font-size: 35px;
+    line-height: 28px;
+}
+
+#banner h1, 
+#banner p {
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+#banner p {
+    font-size: 19px;
+}
+
+#services h3:hover {
+    color:#fde123;
+}
+
+#services h3 {
+    background-color: #93cc6a;
+    color:#333333;
+    padding:5px;
+}
+
+#services p{
+    font-weight:100;
+}
+
+#content h2, 
+#content h3,
+#content h4 {
+    color: #284e1f;
+    font-weight: 600;
+}
+
+#gallery a {
+    font-size:14px;
+}
+  
+body, 
+.formbuilder-form .row label {
+    font-weight:400;
+}
+
+.btn, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+   text-transform: uppercase;
+}
+
+#gallery a,
+#header2b a, 
+footer a:hover,
+.contact_detail a,
+.contact_detail a:hover,
+btn, 
+.btn:hover, 
+.btn:focus, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+.formbuilder-form input#submit-form:focus, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus {
+    text-decoration: none;
+}
+    
+/*----------------------------------------------------------------
+    Form
+----------------------------------------------------------------*/
+
+.form, 
+#extraFormsContainer .modal-dialog{
+    border-radius:0px;;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.formbuilder-form .row label {
+    color:#284e1f;
+}
+
+.formbuilder-form .row input, 
+.formbuilder-form .row select, 
+.formbuilder-form .row textarea {
+    color:#000;
+    background-color:#fff;
+    border:1px solid #e8e8e8;
+}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+
+.btn {
+    color: #FFF;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    width:40%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    color:#fff;
+    background-color: #fde123;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+@media (min-width: 711px) {
+    .btn:hover, 
+    .btn:focus, 
+    .btn:active, 
+    .btn.active, 
+    .open>.dropdown-toggle.btn {
+        color: #fff;
+        font-weight:600;
+        border: 2px solid #fde123;
+        background-color: rgba(238, 213, 35,0.7);
+    }
+} 
+
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    background-color: rgb(238, 213, 35);
+    border-color: rgba(176, 214, 184, 1);
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+h1, 
+h2, 
+h3, 
+h4,
+#header1 p,
+header,
+#banner p,
+#gallery a,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+#header {
+    padding: 15px 0 0px 0;
+    margin-bottom: -10px;
+}
+
+#header2 {
+    padding-bottom: 30px;
+}
+
+#header2b {
+   line-height:30px;
+}
+
+#header2a:before {
+    content:'\f098';
+    padding-right:5px;
+}
+
+/*----------------------------------------------------------------
+    Banner
+----------------------------------------------------------------*/
+
+#banner h1 {
+    font-size: 55px;
+}
+
+.banner_cover {
+    opacity: 0.5;
+    background-color:#65d37c;
+}
+
+#banner1 {
+    margin:0;
+    text-align: left;
+}
+
+/*----------------------------------------------------------------
+    Services
+----------------------------------------------------------------*/
+
+#services {
+    padding: 20px 0 0px 0;
+}
+
+#service1,
+#service2,
+#service3,
+#service4 {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+/*----------------------------------------------------------------
+    Content
+----------------------------------------------------------------*/
+
+    #content ul li:before {
+        content:'\f0da';
+    }
+
+/*----------------------------------------------------------------
+    Gallery
+----------------------------------------------------------------*/
+
+
+#gallery h3 {
+    padding: 40px 0 20px;
+}
+
+#gallery img {
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;}
+#gallery1 p, #gallery, #gallery .container {
+    padding: 0;
+    margin-bottom :0;}
+#gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+    -webkit-box-flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding:0;}
+ @media only screen and (min-width: 767px){
+    #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+        -webkit-box-flex: 0 0 33.333%;
+        -webkit-flex: 0 0 33.333%;
+        -ms-flex: 0 0 33.333%;
+        flex:  0 0 33.333%;
+        max-width: 33.333%;
+        margin-bottom: 0px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #gallery p img, #gallery p.gallery3 img, #gallery p.gallery4 img, #gallery p.gallery5 img, #gallery p.gallery6 img {
+        -webkit-box-flex: 0 1 100%;
+        -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        max-width: 100%;}
+    #gallery img {
+        width: 95%}
+}
+#gallery img ,#gallery1 p, #gallery, #gallery .container, #gallery img, #content img{width:100%;}
+#gallery .row, #gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {margin: 0;}
+
+#gallery img:hover {
+  opacity: 0.3;
+}
+#td{
+    font-weight:500;
+    line-height:20px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+/*----------------------------------------------------------------
+  Contact 
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#contact2f, 
+#contact2d, 
+#contact1b {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, 
+footer a , 
+footer {
+    color: #646464;
+}
+footer {
+    background-color: #ffffff;
+    padding: 10px 0 10px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media (max-width: 991px) {
+    #service1, #service2, #service3, #service4 {
+        padding-bottom:0px;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {  
+    #banner1, #banner p,.btn{
+        text-align:center;
+    }
+    #banner h1 {
+        font-size:45px;
+        padding: 10px 10px 3px;
+    }
+    #header {
+        padding-top:25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn{
+        width:100%;
+        word-wrap: break-word;
+    }
+}
+@media (min-width: 0px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    #service3 {
+        clear:left;
+    }
+}
+
+/*- Animation & Extras-*/
+#banner1 {
+    animation:move 2s ease
+}
+
+@-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}
+}
+
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.btn.active, 
+.open>.dropdown-toggle.btn,
+#service1:hover,#service2:hover,#service3:hover,#service4:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
